@@ -1,17 +1,29 @@
 .navbar{
+    /* display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0 180px; */
+    
+    background-color:white;
+    position:sticky;
+    top:0;
+}
+
+.navbar-container{
+    
+    width:80%;
+    margin:0 auto;
+
     display:flex;
     justify-content:space-between;
     align-items:center;
-
-    padding:0 180px;
 }
+
 
 .navbar-center ul{
 
     display:flex;
-
     gap:40px;
-
     list-style:none;
 
 }
@@ -27,14 +39,29 @@ gap:20px;
 .navbar-center ul li{
     cursor:pointer;
     transition:0.3s;
+    list-style:none;
 }
 
-.navbar-center ul li:hover{
+.navbar-link{
+    text-decoration:none;
+    color:rgb(104, 100, 100);
+    font-weight:500;
+}
+.navbar-link:hover{
     color:#423264;
+    font-weight:bold;
 }
 
 .navbar-logo img{
     width: 90px;
     height: auto;
     display: block;
+}
+
+@media (max-width:786px){
+
+    .navbar{
+        width:95%;
+    }
+
 }

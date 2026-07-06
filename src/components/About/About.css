@@ -1,0 +1,79 @@
+.about-preview{
+    width:100%;
+    padding:80px 0;
+    background:#fff;
+    cursor: pointer;
+}
+
+.about-cont{
+    width:80%;
+    margin:auto;
+}
+
+.about-badge{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    margin-bottom:20px;
+}
+
+.about-badge span{
+
+    background:#c94d83;
+
+    color:#fff;
+
+    padding:8px 18px;
+
+    border-radius:4px;
+
+    font-size:15px;
+
+    font-weight:500;
+}
+
+.badge-design{
+
+    width:42px;
+
+    height:28px;
+
+    background:url("../../assets/images/badgeicon.png");
+
+    background-repeat:no-repeat;
+
+    background-size:contain;
+}
+
+.about-preview h2{
+
+    font-size:44px;
+
+    color:#432364;
+
+    margin-bottom:25px;
+
+    font-weight:500;
+}
+
+.about-content{
+
+    width:100%;
+}
+
+.about-preview p{
+
+    font-size:16px;
+
+    color:#666;
+
+    line-height:1.8;
+
+    margin-bottom:18px;
+}
+
+.about-link{
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}

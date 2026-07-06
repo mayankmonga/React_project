@@ -1,0 +1,33 @@
+.categories-preview{
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+}
+
+.categories-cont{
+    width: 100%;
+    display: flex;
+    gap: 30px;
+}
+
+.categories-preview h2{
+
+    font-size:44px;
+
+    color:#432364;
+
+    margin-bottom:25px;
+
+    font-weight:500;
+}
+
+.categories-preview p{
+
+    font-size:16px;
+
+    color:#666;
+
+    line-height:1.8;
+
+    margin-bottom:18px;
+}
