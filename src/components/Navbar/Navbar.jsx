@@ -1,7 +1,9 @@
 import {menuItems} from "./NavbarData";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-import {FiSearch, FiUser, FiShoppingCart,} from "react-icons/fi";
+import Search from "../../assets/images/search.svg";
+import Profile from "../../assets/images/profile.svg";
+import Kart from "../../assets/images/kart.svg";
 import Logo from "../../assets/images/logo.jpg";
 
 function Navbar() {
@@ -28,9 +30,9 @@ function Navbar() {
                     </ul>
                 </div>
                 <div className="navbar-right">
-                    <FiSearch className="navbar-icon" />
-                    <FiUser className="navbar-icon" />
-                    <FiShoppingCart className="navbar-icon" />
+                    <img src={Search} alt="Search Icon" className="navbar-icon" />
+                    <img src={Profile} alt="Profile Icon" className="navbar-icon" />
+                    <img src={Kart} alt="Shopping Cart Icon" className="navbar-icon" />
                 </div>
             </div>
         </nav>

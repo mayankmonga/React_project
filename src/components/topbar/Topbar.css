@@ -2,10 +2,11 @@
     background-color: #423264;
     color:white;
     text-align:center;
-    padding:17px 0;
+    padding:16px 0;
 }
 .topbar p{
-    margin:0;
-    
+    margin:0;  
     font-size:15px;
+    color:#EDEDED;
+    font-weight:300;
 }
