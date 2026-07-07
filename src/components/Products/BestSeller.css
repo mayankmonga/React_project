@@ -29,7 +29,11 @@
 
   display: grid;
 
-  grid-template-columns: repeat(4, 1fr);
+  transition: grid-template-columns .4s ease;
 
   gap: 30px;
+}
+
+.products-container > div {
+  transition: all .4s ease;
 }

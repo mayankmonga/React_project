@@ -24,23 +24,24 @@ function ProductCard({
       {/* Product Details */}
       <div className="product-details">
 
-        <h3>{title}</h3>
+        <h3 className="product-title">{title}</h3>
 
         <p>{description}</p>
         
-        <div className="product-price">
-          <span className="current-price">₹{price}</span>
+        <div className="price-btn">
+            <div className="product-price">
+            <span className="current-price">₹{price}</span>
 
-          <del className="old-price">
-            ₹{oldPrice}
-          </del>
+            <del className="old-price">
+                ₹{oldPrice}
+            </del>
+            </div>
+
+            <button className="cart-btn">
+            <FiShoppingCart />
+            Add to Cart
+            </button>
         </div>
-
-        <button className="cart-btn">
-          <FiShoppingCart />
-          Add to Cart
-        </button>
-
       </div>
 
     </div>

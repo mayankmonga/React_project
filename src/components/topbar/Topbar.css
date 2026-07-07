@@ -1,12 +1,20 @@
 .topbar{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight:400;
     background-color: #423264;
     color:white;
     text-align:center;
     padding:16px 0;
+    line-height: 100%;
+
+    
+
 }
 .topbar p{
     margin:0;  
     font-size:15px;
     color:#EDEDED;
-    font-weight:300;
+    ;
 }

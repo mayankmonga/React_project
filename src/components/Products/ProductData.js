@@ -10,7 +10,7 @@ export const Products = [
     {
         id:1,
         image:I1,
-        title:"Big Building Painting for Living Room...",
+        title:"Big Building Painting for...",
         description: "Improve the energy flow in your living room with our Big building painting..",
         price:1099,
         oldPrice:3000

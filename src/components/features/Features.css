@@ -19,11 +19,20 @@
     border-right: none;
 } */
 
+
+@font-face {
+  font-family: "PoorRichard";
+  src: url("../../assets/fonts/POORICH.TTF") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 .features{
     width:100%;
-    padding:40px 80px;
+    padding:45px 80px;
     background:#423264;
     color:white;
+    
 }
 
 .features-container{
@@ -40,12 +49,13 @@
 
     display:flex;
     align-items:center;
+    justify-content: center;
 
-    gap:15px;
+    gap:12px;
 
-    padding:20px;
+    padding:0px 15px;
 
-    border-right:1px solid #ddd;
+    border-right:1px solid #D4D4D4
 }
 
 .feature-card:last-child{
@@ -66,14 +76,18 @@
 
     font-size:18px;
 
-    margin-bottom:12px;
+    margin-bottom:8px;
+    font-family:"PoorRichard", serif;
+    font-size: 25px;
+    font-weight: 400;
 
 }
 
 .feature-text p{
 
-    font-size:14px;
-
+    font-size:18px;
     color:#999999;
+    font-weight: 400;
+    font-family: "Raleway", sans-serif;
 
 }

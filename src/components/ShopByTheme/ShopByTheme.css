@@ -1,0 +1,159 @@
+@font-face {
+  font-family: "PoorRichard";
+  src: url("../../assets/fonts/POORICH.TTF") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.shop-theme{
+    width:80%;
+    margin:auto;
+    padding:100px 0;
+}
+
+.shop-theme .section-heading{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.shop-theme .section-heading span{
+
+    display:inline-block;
+
+    background:#d64f8b;
+
+    color:#fff;
+
+    padding:10px 22px;
+
+    border-radius:5px;
+
+    font-size:14px;
+
+    font-weight:600;
+
+}
+
+.feature-item img{
+ background-color: white;
+ width: 21px;
+}
+.feature-item{
+    display: flex;
+    gap:10px
+}
+
+
+.theme-container{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:60px;
+
+    align-items:center;
+}
+
+.theme-tab {
+    background: transparent;
+}
+
+.theme-tab.active {
+    background: purple;
+    color: white;
+}
+
+.theme-main-image{
+    width: 100%;
+    height: 729px;   /* Apne design ke hisab se */
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.theme-main-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery-img img{
+    width: 185px;
+    height: 195px;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.gallery-img{
+    display: flex;
+    gap: 34px;
+}
+.gallery-section{
+    margin-top: 40px;
+}
+
+.slider-dots{
+    display:flex;
+    gap:10px;
+    align-items:center;
+}
+
+.dot{
+
+    width:12px;
+    height:12px;
+
+    border:2px solid #5b2c83;
+
+    border-radius:50%;
+
+    cursor:pointer;
+}
+
+.dot.active{
+
+    background:#5b2c83;
+}
+
+.slider-navigation{
+
+    display:flex;
+    align-items:center;
+    justify-content: flex-end;
+}
+
+.right-side{
+
+    padding-left:40px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:28px;
+}
+
+.theme-tabs button{
+
+    padding:12px 24px;
+
+    border:none;
+
+    border-radius:40px;
+
+    background:white;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+    font-size:15px;
+}
+
+.arrow-btn{
+    background-color: white;
+    color: #5b2c83;
+    font-size: 38px;
+    padding-top:  8px;
+    border: none;
+}
