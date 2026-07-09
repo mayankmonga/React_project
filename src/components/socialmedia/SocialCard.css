@@ -1,0 +1,6 @@
+.Social-card img{
+    width: 360px;
+    height: 360px;
+    object-fit: cover;
+    border-radius: 10px;
+}

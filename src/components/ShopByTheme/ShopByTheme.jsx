@@ -46,13 +46,25 @@ function ShopByTheme() {
               <button
                 key={theme.id}
                 onClick={() => setActivetheme(index)}
-                className={activetheme === index ? "active" : ""}
+                className={`tab ${activetheme === index ? "active" : ""}` }
               >
                 {theme.category}
+
+                {activetheme === index && (
+                <div className="active-line">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+                )}
               </button>
             ))}
           </div>
-          <h2>{currenttheme.title}</h2>
+          <h2>
+            {/* {currenttheme.title} */}
+            <span className="first">{currenttheme.title.slice(0, 15)}</span>
+            <span className="second">{currenttheme.title.slice(15)}</span>
+          </h2>
 
           <p>{currenttheme.description}</p>
           <p>{currenttheme.description2}</p>

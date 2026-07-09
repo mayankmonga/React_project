@@ -1,0 +1,21 @@
+.tesimonial-section {
+  background-color: #423264;
+  color: white;
+  width: 100%;
+  padding: 40px 0;
+}
+
+.testinomial-content {
+  width: 85%;
+  padding: 0 30px;
+  margin: auto;
+}
+
+.testinomial-content h2 {
+  margin-bottom: 30px;
+}
+
+.testimonial-cont {
+  display: flex;
+  padding-left: 20px;
+}

@@ -40,7 +40,8 @@
 }
 .feature-item{
     display: flex;
-    gap:10px
+    gap:10px;
+    width: 241px;
 }
 
 
@@ -59,9 +60,21 @@
     background: transparent;
 }
 
+
+.right-side p{
+    font-size: 15px;
+    font-family: "Raleway", sans-serif;
+}
 .theme-tab.active {
     background: purple;
     color: white;
+}
+
+.theme-features{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 8px;
 }
 
 .theme-main-image{
@@ -69,6 +82,21 @@
     height: 729px;   /* Apne design ke hisab se */
     border-radius: 10px;
     overflow: hidden;
+}
+
+.right-side h2{
+    font-family: "PoorRichard", serif;
+    font-size: 40px;
+    font-weight: 400;
+
+}
+
+.first{
+    color: #423264;
+}
+
+.second{
+    color: #B9467B;
 }
 
 .theme-main-image img{
@@ -89,7 +117,7 @@
     gap: 34px;
 }
 .gallery-section{
-    margin-top: 40px;
+    margin-top: 55px;
 }
 
 .slider-dots{
@@ -116,6 +144,8 @@
 }
 
 .slider-navigation{
+        padding-top: 140px;
+    padding-left: 50px;
 
     display:flex;
     align-items:center;
@@ -133,22 +163,7 @@
     gap:28px;
 }
 
-.theme-tabs button{
 
-    padding:12px 24px;
-
-    border:none;
-
-    border-radius:40px;
-
-    background:white;
-
-    cursor:pointer;
-
-    transition:.3s;
-
-    font-size:15px;
-}
 
 .arrow-btn{
     background-color: white;
@@ -156,4 +171,77 @@
     font-size: 38px;
     padding-top:  8px;
     border: none;
+}
+
+.explore-btn{
+    width: 160px;
+    height: 40px;
+    background: white;
+    color: #423264;
+    border-color: #423264;
+    border-radius: 5px;
+    font-family: "PoorRichard", serif;
+    font-size: 20px;
+}
+
+.theme-tabs{
+    gap: 20px;
+    display: flex;
+    padding-bottom: 25px;
+    
+}
+
+.theme-tabs button{
+
+
+
+    border:none;
+
+
+    background:white;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+    font-size:20px;
+
+    color: #5D5D5D;
+
+    position: relative;
+
+    font-family: "PoorRichard", serif;
+    font-weight: 400;
+}
+
+.tab.active {
+  color: #5A3E85;
+}
+
+
+.active-line {
+  display: flex;
+
+  gap: 4px;
+  margin-top: 8px;
+}
+
+.active-line span {
+  height: 3px;
+  border-radius: 20px;
+}
+
+.active-line span:nth-child(1) {
+  width: 53px;
+  background: #423264;
+}
+
+.active-line span:nth-child(2) {
+  width: 12px;
+  background: #B9467B;
+}
+
+.active-line span:nth-child(3) {
+  width: 6px;
+  background: #B9467B;
 }
