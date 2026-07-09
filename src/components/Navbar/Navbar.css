@@ -12,6 +12,13 @@
     z-index: 1000;
 }
 
+.menu-icon{
+    display: none;
+    font-size: 25px;
+    cursor: pointer;
+
+}
+
 .navbar-container{
     
     width:80%;
@@ -65,8 +72,24 @@ gap:20px;
 
 @media (max-width:786px){
 
-    .navbar{
-        width:95%;
+    .menu-icon{
+        display:block;
+    }
+
+    .nav-links{
+        position:absolute;
+        top:80px;
+        left:-100%;
+        width:100%;
+        background:white;
+        flex-direction:column;
+        align-items:center;
+        padding:20px 0;
+        transition:0.3s;
+    }
+
+    .nav-links.active{
+        left:0;
     }
 
 }

@@ -5,6 +5,7 @@
 .social-container{
     display: flex;
     gap: 20px;
+    
 
 }
 
@@ -16,3 +17,13 @@
     width: 80%;
     margin:auto;
 }
+
+@media (max-width:1024px){
+    .social-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;   
+
+}
+   
+};

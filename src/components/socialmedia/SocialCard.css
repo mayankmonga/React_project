@@ -4,3 +4,29 @@
     object-fit: cover;
     border-radius: 10px;
 }
+
+@media (max-width:1440px){
+   .Social-card img{
+    width: 260px;
+    height: 260px;
+
+}
+   
+};
+
+@media (max-width:1024px){
+    .Social-card img{
+    width: 160px;
+    height: 160px;
+
+}}
+
+/* @media (max-width:768px){
+    .Social-card img{
+    width: 100px;
+    height: 100px;
+
+}} */
+   
+
+
