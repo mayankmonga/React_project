@@ -2,7 +2,7 @@ import {menuItems} from "./NavbarData";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import Search from "../../assets/images/search.svg";
-import Profile from "../../assets/images/profile.svg";
+import Profile from "../../assets/images/Profile.svg";
 import Kart from "../../assets/images/kart.svg";
 import Logo from "../../assets/images/logo.jpg";
 import { useState } from "react";
