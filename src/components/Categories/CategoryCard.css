@@ -14,14 +14,15 @@
 
 }
 .category-card h3{
-    margin:10px;
+    margin: 20px 20PX 8PX 20PX;
     color:#432364;
-    font-weight:500;
-    font-size:24px;
+    font-weight:400;
+    font-size:25px;
 }
 
 .category-card p{
     margin:0 20px 20px;
-    color:#666;
-    line-height:1.7;
+    color:#383838;
+    line-height:20px;
+    font-size: 18px;
 }

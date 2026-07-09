@@ -13,9 +13,27 @@
 
 .testinomial-content h2 {
   margin-bottom: 30px;
+  font-family: "PoorRichard", serif;
+  font-size: 40px;
+  font-weight: 400;
 }
 
 .testimonial-cont {
   display: flex;
   padding-left: 20px;
+}
+
+.badge-desig{
+
+    width:43px;
+
+    height:35px;
+
+    background:url("../../assets/images/test.png");
+
+    background-repeat:no-repeat;
+
+    background-size:contain;
+
+    margin-top: 10px;
 }

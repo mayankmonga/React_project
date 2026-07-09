@@ -1,6 +1,13 @@
+@font-face {
+  font-family: "PoorRichard";
+  src: url("../../assets/fonts/POORICH.TTF") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 .best-seller {
   width: 80%;
-  padding: 80px 0;
+  padding: 50px 0;
   margin: auto;
 }
 
@@ -10,17 +17,23 @@
 }
 
 .section-heading span {
-  background: #d64f8b;
+  background: #B9467B;
   color: white;
   padding: 8px 18px;
   border-radius: 5px;
-  font-size: 14px;
+  font-size: 25px;
+}
+
+.about-badge img{
+  margin-top: 10px;
 }
 
 .section-heading h2 {
+  font-family: "PoorRichard", serif;
   margin-top: 20px;
-  font-size: 42px;
-  color: #4a235a;
+  font-size: 40px;
+  color: #423264;
+  font-weight: 400    ;
 }
 
 .products-container {

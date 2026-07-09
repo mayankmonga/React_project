@@ -3,7 +3,7 @@
    height: 350px;
    background-color: white;
    color: #3D3D3D;
-   border-radius: 10px;
+   border-radius: 14px;
 }
 
 .review-person img{
@@ -36,9 +36,23 @@
     gap: 10px;
     color: white;
     background-color: #423264;
-    width: 250px;
+    width: 280px;
     border-radius: 0px 10px 0px 10px;
     margin-top: 75px;
     padding: 8px 0 ;
     text-align: center;
+}
+
+.review-detail h4 {
+    font-family: "Poppins", sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+    letter-spacing: 5%;
+}
+
+.review-detail p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #C2C2C2;
 }

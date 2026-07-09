@@ -65,10 +65,17 @@
 
 .product-details h3 {
   margin-top: 20PX;
-  font-size: 20px;
+  font-size: 25px;
   margin-bottom: 10px;
   color: #423264;
+  font-weight: 400;
 
+}
+.product-details p{
+  font-size: 18px;
+  color: #383838;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
 }
 
 .product-title {
@@ -99,15 +106,20 @@
 }
 
 .current-price {
-  font-size: 22px;
+  font-size: 40px;
   font-weight: 700;
   color: #6b1fa1;
+  font-weight: 400;
+  font-family: "PoorRichard";
 }
 
 .old-price {
-  color: #999;
-  font-size: 16px;
+  color: #5D5D5D;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "PoorRichard";
 }
+
 
 /* Button */
 
@@ -120,12 +132,14 @@
   padding: 0px 6px;
   border-radius: 5px;
   cursor: pointer;
-  font-size: 18px;
+  font-size: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 5px;
+  gap: 8px;
   transition: .3s;
+  font-family: "PoorRichard";
+  font-weight: 400;
 }
 
 .cart-btn:hover {

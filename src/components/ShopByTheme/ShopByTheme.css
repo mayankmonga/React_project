@@ -8,7 +8,7 @@
 .shop-theme{
     width:80%;
     margin:auto;
-    padding:100px 0;
+    padding:80px 0;
 }
 
 .shop-theme .section-heading{
@@ -20,7 +20,7 @@
 
     display:inline-block;
 
-    background:#d64f8b;
+    background:#B9467B;
 
     color:#fff;
 
@@ -28,9 +28,9 @@
 
     border-radius:5px;
 
-    font-size:14px;
+    font-size:25px;
 
-    font-weight:600;
+    font-weight:500;
 
 }
 
@@ -182,6 +182,11 @@
     border-radius: 5px;
     font-family: "PoorRichard", serif;
     font-size: 20px;
+}
+
+.explore-btn:hover{
+    background-color: #423264;
+    color: white;
 }
 
 .theme-tabs{

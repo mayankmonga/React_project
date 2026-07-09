@@ -1,7 +1,15 @@
+@font-face {
+  font-family: "PoorRichard";
+  src: url("../../assets/fonts/POORICH.TTF") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 .categories-preview{
     width: 80%;
     margin: auto;
-    padding: 80px 0;
+    padding: 50px 0;
 }
 
 .categories-cont{
@@ -12,13 +20,15 @@
 
 .categories-preview h2{
 
-    font-size:44px;
+    font-size:40px;
 
     color:#432364;
 
-    margin-bottom:25px;
+    margin-bottom:30px;
 
-    font-weight:500;
+    font-weight:400;
+
+    font-family: "PoorRichard", serif;
 }
 
 .categories-preview p{

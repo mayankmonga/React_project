@@ -15,7 +15,7 @@ function Testimonial() {
       <div className="testinomial-content">
         <div className="about-badge">
           <span>Testimonials</span>
-          <div className="badge-design"></div>
+          <div className="badge-desig"></div>
         </div>
 
         <h2>Trusted by Art & Décor Lovers</h2>

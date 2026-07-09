@@ -23,7 +23,7 @@ function AboutPreview() {
           <div className="about-content">
 
             <p>
-              At Vividkraft, we believe great décor creates unforgettable spaces.
+              At <span>Vividkraft,</span> we believe great décor creates unforgettable spaces.
               Our carefully curated collection of canvas prints, artistic paper
               prints, and timeless copper décor products is designed to add
               personality, warmth, and sophistication to every home.
