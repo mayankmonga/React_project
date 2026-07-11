@@ -1,5 +1,5 @@
 import {menuItems} from "./NavbarData";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 import Search from "../../assets/images/search.svg";
 import Profile from "../../assets/images/Profile.svg";
@@ -25,12 +25,12 @@ function Navbar() {
                     </div>
                 </div>
                 <div className="navbar-center">
-                    <ul className={`navbar-menu, ${menuOpen ? "nav-links active" : "nav-links"}`}>
+                    <ul className={`navbar-menu ${menuOpen ? "nav-links active" : "nav-links"}`}>
                         {menuItems.map((item) => (
                             <li key={item.id}>
-                                <Link to={item.path} onClick={() => SetmenuOpen(false)} className="navbar-link">
+                                <NavLink to={item.path} onClick={() => SetmenuOpen(false)} className="navbar-link">
                                     {item.name}
-                                </Link>
+                                </NavLink>
                             </li>
                         ))}
                     </ul>

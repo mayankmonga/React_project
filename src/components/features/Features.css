@@ -91,3 +91,74 @@
     font-family: "Raleway", sans-serif;
 
 }
+
+@media (max-width:1024px){
+    .feature-icon img{
+        width:32px;
+    }
+
+    .feature-text h3{
+        font-size:16px;
+        font-weight: 300;
+    }
+
+    .feature-text p{
+        font-size: 14px;
+    }
+}
+
+@media (max-width:768px){
+    .features{
+        padding: 35px 60px;
+    }
+    .features-container{
+        width: 100%;
+    }
+
+     .feature-icon img{
+        width:32px;
+    }
+
+    .feature-text h3{
+        font-size:14px;
+        font-weight: 300;
+    }
+
+    .feature-text p{
+        font-size: 12px;
+    }
+}
+
+@media (max-width:425px){
+    .features-container{
+        flex-wrap: wrap;
+        gap:10px
+
+    }
+
+    .feature-card:nth-child(2) {
+
+    border-right:none;
+
+}
+}
+
+@media (max-width:375px){
+    .features-container{
+        display: block;
+
+    }
+
+    .feature-card{
+        border-right: none;
+        border-top:1px solid #D4D4D4;
+        margin-top: 5px;
+        padding: 5px;
+    }
+
+    .feature-card:first-child{
+
+    border-top:none;
+
+}
+}

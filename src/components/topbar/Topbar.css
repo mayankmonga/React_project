@@ -18,3 +18,12 @@
     color:#EDEDED;
     ;
 }
+
+@media (max-width:425px) {
+    .topbar p{
+        font-size: 12px;
+    }
+    .topbar{
+        padding: 14px 0;
+    }
+}

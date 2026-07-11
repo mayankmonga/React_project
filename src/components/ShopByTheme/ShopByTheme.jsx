@@ -82,7 +82,7 @@ function ShopByTheme() {
               {currenttheme.gallery.map((Image, index) => (
                 <img src={Image} />
               ))}
-
+            </div>
               <div className="slider-navigation">
                 <button className="arrow-btn" onClick={prevtheme}>
                   <FiChevronLeft />
@@ -102,7 +102,7 @@ function ShopByTheme() {
                   <FiChevronRight />
                 </button>
               </div>
-            </div>
+            
           </div>
         </div>
       </div>

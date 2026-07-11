@@ -16,7 +16,7 @@ function Footer (){
 
                     <SocialIcons />
                 </div>
-
+                <div className="links-conatiner">
                 <div className="about-links">
                     <h3>Quick Links</h3>
                     <ul>
@@ -46,6 +46,7 @@ function Footer (){
                             </li>
                         ))}
                     </ul>
+                </div>
                 </div>
             </div>
         </section>

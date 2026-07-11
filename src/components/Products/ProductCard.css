@@ -145,3 +145,42 @@
 .cart-btn:hover {
   background: #8e24aa;
 }
+
+
+
+@media (max-width:1440px){
+.product-card{
+  width: 250px;
+}
+}
+
+
+@media (max-width:768px){
+  .product-details h3{
+    font-size: 20px;
+  }
+
+  .product-details p{
+    font-size: 15px;
+  }
+
+  .current-price{
+    font-size: 28px;
+  }
+
+  .old-price{
+    font-size: 14px;
+  }
+
+  .cart-btn {
+    width: 120px;
+    font-size: 16px;
+    font-weight: 300;
+  }
+}
+
+@media (max-width:425px){
+  .product-card{
+  width: 100%;
+}
+}

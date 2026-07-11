@@ -49,6 +49,8 @@
 
 .about-links ul{
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 li{
@@ -66,4 +68,41 @@ li{
 
 .about-links ul a:hover{
     font-weight: bold;
+}
+
+
+.links-conatiner{
+    display: flex;
+}
+
+@media (max-width:1440px){
+    .footer-about{
+    margin-right: 60px;
+    width: 400px;
+}
+}
+@media (max-width:1024px) {
+   .footer-container{
+    display: block;
+   }
+
+   
+}
+
+@media (max-width:425px){
+    .links-conatiner{
+        display: block;
+    }
+    .footer-about{
+    margin-right: 0px;
+    width: 100%;
+}
+
+.about-links h3{
+    font-size: 24px;
+}
+
+.about-links ul a {
+    font-size: 14px;
+}
 }

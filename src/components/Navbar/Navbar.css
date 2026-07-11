@@ -41,10 +41,15 @@
 
 .navbar-right{
 
-display:flex;
+    display:flex;
 
-gap:20px;
+    gap:20px;
 
+}
+
+.navbar-menu{
+    padding: 0;
+    margin: 0;
 }
 
 .navbar-center ul li{
@@ -59,7 +64,8 @@ gap:20px;
     font-weight:300;
     font-size:18px;
 }
-.navbar-link:hover{
+.navbar-link:hover,
+.navbar-link.active{
     color:#423264;
     font-weight:bold;
 }
@@ -69,7 +75,21 @@ gap:20px;
     height: auto;
     display: block;
 }
+@media (max-width:1024px){
+    .navbar-link{
+        font-size:16px;
+    }
 
+    .navbar-center ul{
+        gap:30px;
+    }
+
+    .navbar-right img{
+        width: 18px;
+    }
+
+    
+}
 @media (max-width:786px){
 
     .menu-icon{

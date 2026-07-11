@@ -13,12 +13,20 @@
     margin-bottom: 40px;
 }
 
+.social-heading h2{
+    font-family: "PoorRichard", serif;
+  margin-top: 20px;
+  font-size: 40px;
+  color: #423264;
+  font-weight: 400    ;
+}
+
 .social-cont{
     width: 80%;
     margin:auto;
 }
 
-@media (max-width:1024px){
+@media (max-width:1440px){
     .social-container{
     display: flex;
     flex-wrap: wrap;
@@ -26,4 +34,10 @@
 
 }
    
+}
+
+@media (max-width:768px){
+    .social-heading h2{
+        font-size: 32px;
+    }
 }

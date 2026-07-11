@@ -21,12 +21,29 @@ function Testimonial() {
         <h2>Trusted by Art & Décor Lovers</h2>
         <Swiper
           modules={[Autoplay]}
-          slidesPerView={3}
+          // slidesPerView={3}
           spaceBetween={20}
           loop={true}
           // pagination={{ clickable: true }} `
           autoplay={{
             delay: 3000,
+          }}
+          breakpoints={{
+            320: {
+              slidesPerView: 1,
+            },
+            576: {
+              slidesPerView: 1,
+            },
+            768: {
+              slidesPerView: 2,
+            },
+            1024: {
+              slidesPerView: 2,
+            },
+            1200: {
+              slidesPerView: 3,
+            },
           }}
         >
           {TestimonialData.map((item, index) => (

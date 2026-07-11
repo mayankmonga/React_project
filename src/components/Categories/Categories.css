@@ -41,3 +41,14 @@
 
     margin-bottom:18px;
 }
+
+@media (max-width:768px){
+    .categories-cont{
+        display: block;
+    }
+
+    .categories-preview h2{
+        font-size: 32px;
+    }
+
+}
