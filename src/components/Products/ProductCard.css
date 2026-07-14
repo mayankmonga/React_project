@@ -5,13 +5,11 @@
   font-style: normal;
 }
 
-
 .product-card {
   position: relative;
-  
+
   overflow: hidden;
   transition: 0.3s ease;
-
 }
 
 .product-card:hover {
@@ -62,16 +60,14 @@
 
 /* Details */
 
-
 .product-details h3 {
-  margin-top: 20PX;
+  margin-top: 20px;
   font-size: 25px;
   margin-bottom: 10px;
   color: #423264;
   font-weight: 400;
-
 }
-.product-details p{
+.product-details p {
   font-size: 18px;
   color: #383838;
   font-family: "Raleway", sans-serif;
@@ -87,9 +83,6 @@
   font-family: "PoorRichard", serif;
 }
 
-
-
-
 /* Price */
 
 .product-price {
@@ -98,11 +91,11 @@
   gap: 8px;
 }
 
-.price-btn{
+.price-btn {
   margin-top: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .current-price {
@@ -114,12 +107,11 @@
 }
 
 .old-price {
-  color: #5D5D5D;
+  color: #5d5d5d;
   font-size: 20px;
   font-weight: 400;
   font-family: "PoorRichard";
 }
-
 
 /* Button */
 
@@ -127,7 +119,7 @@
   width: 150px;
   height: 40px;
   border: none;
-  background: #B9467B;
+  background: #b9467b;
   color: white;
   padding: 0px 6px;
   border-radius: 5px;
@@ -137,7 +129,7 @@
   justify-content: center;
   align-items: center;
   gap: 8px;
-  transition: .3s;
+  transition: 0.3s;
   font-family: "PoorRichard";
   font-weight: 400;
 }
@@ -146,29 +138,26 @@
   background: #8e24aa;
 }
 
-
-
-@media (max-width:1440px){
-.product-card{
-  width: 250px;
-}
+@media (max-width: 1440px) {
+  .product-card {
+    width: 250px;
+  }
 }
 
-
-@media (max-width:768px){
-  .product-details h3{
+@media (max-width: 768px) {
+  .product-details h3 {
     font-size: 20px;
   }
 
-  .product-details p{
+  .product-details p {
     font-size: 15px;
   }
 
-  .current-price{
+  .current-price {
     font-size: 28px;
   }
 
-  .old-price{
+  .old-price {
     font-size: 14px;
   }
 
@@ -179,8 +168,8 @@
   }
 }
 
-@media (max-width:425px){
-  .product-card{
-  width: 100%;
-}
+@media (max-width: 425px) {
+  .product-card {
+    width: 100%;
+  }
 }

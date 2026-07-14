@@ -1,0 +1,28 @@
+.bestcat-section h2{
+    font-size: 40px;
+}
+
+.bestcatcards{
+    width: 80%;
+    margin: auto;
+}
+
+.bestcatcards img{
+    height: 483px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.bestcatcards h3{
+    font-size: 32px;
+}
+
+.bestcatcards p{
+    color: #6D6D6D;
+    font-size: 20px;
+}
+
+.bestcatcards span{
+    color: #533F7D;
+    font-size: 24px;
+}

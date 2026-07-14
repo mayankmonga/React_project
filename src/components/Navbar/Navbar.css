@@ -113,3 +113,14 @@
     }
 
 }
+
+@media (max-width:425px){
+    .navbar-logo img{
+        width: 60px;
+    }
+
+    .navbar-right img{
+        width: 16px;
+    }
+
+}

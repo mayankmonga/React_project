@@ -7,7 +7,7 @@ export const menuItems = [
   {
     id: 2,
     name: "Categories",
-    path: "/categories",
+    path: "/category",
   },
   {
     id: 3,

@@ -1,0 +1,23 @@
+.collection-content{
+    width: 80% ;
+    margin: auto;
+}
+
+.collection-content img{
+    height: 600px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.collection-content h2{
+    font-size: 42px;
+}
+.collection-content p{
+    color: #6D6D6D;
+    font-size: 20px;
+}
+
+.collection-content span{
+    color: #533F7D;
+    font-size: 24px;
+}
