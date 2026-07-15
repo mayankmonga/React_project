@@ -1,4 +1,4 @@
-import { Title } from "chart.js";
+
 import Col1 from "../../assets/images/Col1.jpg";
 import Col2 from "../../assets/images/Col2.jpg";
 import Col3 from "../../assets/images/Col3.jpg";
