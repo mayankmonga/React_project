@@ -35,6 +35,7 @@
 .feature-item img {
   background-color: white;
   width: 21px;
+  height: 21px;
 }
 .feature-item {
   display: flex;

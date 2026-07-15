@@ -70,7 +70,7 @@ function ShopByTheme() {
           <p>{currenttheme.description2}</p>
           <div className="theme-features">
             {currenttheme.features.map((feature, index) => (
-              <div className="feature-item">
+              <div className="feature-item" key={feature}>
                 <img src={Maskgroup} />
                 <p>{feature}</p>
               </div>
@@ -80,7 +80,10 @@ function ShopByTheme() {
           <div className=" gallery-section">
             <div className="gallery-img">
               {currenttheme.gallery.map((Image, index) => (
-                <img src={Image} />
+                <img 
+                key={index}
+                src={Image}
+                alt={`Gallery ${index + 1}`} />
               ))}
             </div>
               <div className="slider-navigation">
