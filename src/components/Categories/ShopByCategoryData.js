@@ -1,4 +1,3 @@
-
 import Ic1 from "../../assets/images/ic1.png";
 import Ic2 from "../../assets/images/ic2.png";
 import Ic3 from "../../assets/images/ic3.png";
