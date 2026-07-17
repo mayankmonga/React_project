@@ -1,0 +1,15 @@
+.cat-testimonial{
+    padding: 50px 0;
+    background-color: #423264;
+
+}
+
+.cat-testimonial h2{
+    color: white;
+    padding: 30px;
+}
+
+.cat-content{
+    width: 80%;
+    margin: auto;
+}

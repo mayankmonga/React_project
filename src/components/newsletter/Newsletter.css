@@ -1,0 +1,68 @@
+.newsletter-section{
+    padding: 50px 0;
+    color: white;
+}
+
+.main-area{
+    width: 80%;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    height: 367px;
+    background-color:#423264 ;
+    border-radius: 10px;
+}
+.wave-image img{
+    position:absolute;
+    pointer-events:none;
+    right: 0;
+    bottom: 0;
+}
+
+.news-content{
+    padding: 40px;
+     position:relative;
+    z-index:10;
+}
+
+.news-content h2{
+    font-size: 80px;
+}
+
+.news-content p{
+    font-size: 16px;
+    margin-top: 30px;
+    width: 50%;
+}
+.news-content label{
+    margin: 15px 0;
+}
+
+
+
+.newsletter-form{
+     display: flex;
+    flex-direction: column;
+    align-items: flex-end;   /* Button right side aa jayega */
+    gap: 50px;
+    margin-top: 15px;
+}
+
+.newsletter-form input{
+    width:100%;
+    height:50px;
+    border:none;
+    padding:0 15px;
+    border-radius:5px ;
+}
+
+.newsletter-form button{
+    width:120px;
+    height: 45px;  
+    border:none;
+    background:#fff;
+    color:#d4548c;
+    border-radius:5px ;
+    cursor:pointer;
+    font-size: 20px;
+}

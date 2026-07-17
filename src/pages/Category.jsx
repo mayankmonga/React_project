@@ -5,7 +5,8 @@ import CreatedByPassion from "../components/whychooseus/CreatedByPassion";
 import WhyCustomerChoose from "../components/whychooseus/WhyCustomerChoose";
 import BestCat from "../components/Products/BestCat";
 import BannerCat from "../components/Banner/BannerCat";
-import Testimonial from "../components//testimonials/Testimonial"
+import TestimonialCat from "../components//testimonials/TestimonialCat"
+import Newsletter from "../components/newsletter/Newsletter";
 
 
 function Category (){
@@ -18,8 +19,8 @@ function Category (){
         <WhyCustomerChoose />
         <BestCat />
         <BannerCat />
-        <Testimonial />
-
+        <TestimonialCat />
+        <Newsletter />
         </>
     );
 }
