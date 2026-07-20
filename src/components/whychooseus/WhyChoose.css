@@ -1,0 +1,36 @@
+.why-content{
+    height: 438px;
+    /* padding: 40px 0; */
+    margin-top: 30px;
+}
+
+.why-content img{
+    width:270px;
+    height:330px;
+    object-fit: cover;
+    border-radius: 4px;
+    
+}
+
+.color-shape{
+    width: 50px;
+    border-radius: 4px;
+}
+
+.Why-heading h2{
+    font-size: 64px;
+    font-family: "PoorRichard", serif;
+    color: #423264;
+}
+
+.Why-heading span{
+    font-size: 32px;
+    color: #5D5D5D;
+    font-family: "Raleway", sans-serif;
+}
+
+.Why-text p{
+    font-size: 22px;
+    font-family: "PoorRichard", serif;
+    color: #423264;
+}

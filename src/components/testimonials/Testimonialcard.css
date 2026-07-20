@@ -17,6 +17,7 @@
 .testiomonial-card .stars{
     padding: 24px 24px 14px 24px;
     font-size: 22px;
+    display: flex;
 }
 
 .testiomonial-card p{

@@ -8,7 +8,7 @@
     margin: auto;
     position: relative;
     overflow: hidden;
-    height: 367px;
+    /* height: 367px; */
     background-color:#423264 ;
     border-radius: 10px;
 }

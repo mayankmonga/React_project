@@ -5,7 +5,7 @@ import { FaArrowRight } from "react-icons/fa";
 function CategoryHero(){
     return(
         <section className="cathero-section " >
-            <div className="container hero-content mx-auto">
+            <div className="container hero-content mx-auto ">
                 <p>Art that inspires. Craft that Lasts</p>
                 <h1>Bring Art & Elegance</h1>
                 <h1>Into Your Space</h1>
