@@ -2,4 +2,27 @@
     background: url("../../assets/images/Contacthero.png");
     background-repeat: no-repeat;
     background-size: auto;
+    height: 80vh;
+    display: flex;
+    align-items: center; 
+}
+
+.cat-hero-box{
+    background-color: #ffffff7a;
+    border-radius: 10px;
+}
+
+.cat-hero-box h2{
+    font-size: 50px;
+    font-family: "PoorRichard", serif;
+    color: #423264;
+}
+
+.cat-hero-box p{
+    color: #383838;
+    font-size: 20px;
+    line-height: 23px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    margin-top: 15px;
 }

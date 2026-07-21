@@ -24,15 +24,15 @@ export const Quicklinks = [
 export const Categories = [
     {
         title:"Canvas Prints",
-        path:"/categories",
+        path:"/category",
     },
     {    
         title:"Paper Prints",
-        path:"/categories",
+        path:"/category",
     },
     {
         title: "Copper Décor",
-        path:"/categories",
+        path:"/category",
     },
 ];
 
