@@ -4,9 +4,13 @@
 
 .choose-section h3{
     font-size: 24px;
+    margin-bottom: 15px;
 }
 
 .choose-section p{
     font-size: 12px;
     color: #6D6D6D;
+}
+.choose-section img{
+    margin: auto;
 }

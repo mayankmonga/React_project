@@ -5,110 +5,104 @@
   font-style: normal;
 }
 
-.about-preview{
-    width:100%;
-    padding:50px 0;
-    background:#fff;
-    cursor: pointer;
+.about-preview {
+  width: 100%;
+  padding: 50px 0;
+  background: #fff;
+  cursor: pointer;
 }
 
-.about-cont{
-    width:80%;
-    margin:auto;
+.about-cont {
+  width: 80%;
+  margin: auto;
 }
 
-.about-badge{
-    display:flex;
-    align-items:center;
-    gap:10px;
-    margin-bottom:20px;
+.about-badge {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
 }
 
-.about-badge span{
+.about-badge span {
+  background: #b9467b;
 
-    background:#B9467B;
+  color: #fff;
 
-    color:#fff;
+  padding: 8px 18px;
 
-    padding:8px 18px;
+  border-radius: 4px;
 
-    border-radius:4px;
+  font-size: 25px;
 
-    font-size:25px;
-
-    font-weight:500;
-    font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-family: "Raleway", sans-serif;
 }
 
-.badge-design{
+.badge-design {
+  width: 43px;
 
-    width:43px;
+  height: 35px;
 
-    height:35px;
+  background: url("../../assets/images/badgeicon.png");
 
-    background:url("../../assets/images/badgeicon.png");
+  background-repeat: no-repeat;
 
-    background-repeat:no-repeat;
+  background-size: contain;
 
-    background-size:contain;
-
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
-.about-preview h2{
+.about-preview h2 {
+  font-family: "PoorRichard", serif;
 
-    font-family: "PoorRichard", serif;
+  font-size: 40px;
 
-    font-size:40px;
+  color: #432364;
 
-    color:#432364;
+  margin-bottom: 30px;
 
-    margin-bottom:30px;
-
-    font-weight:500;
+  font-weight: 500;
 }
 
-.about-content{
-
-    width:95%;
+.about-content {
+  width: 95%;
 }
 
-.about-preview p{
+.about-preview p {
+  font-size: 18px;
 
-    font-size:18px;
+  color: #666;
 
-    color:#666;
-
-
-    margin-bottom:18px;
+  margin-bottom: 18px;
 }
 
-.about-preview p span{
-    font-family: "PoorRichard", serif;
-    color: #432364;
+.about-preview p span {
+  font-family: "PoorRichard", serif;
+  color: #432364;
 }
 
-.about-link{
-    text-decoration: none;
-    color: inherit;
-    display: block;
+.about-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
 }
 
-@media (max-width:768px){
-    .about-badge span{
-        font-size: 20px;
-    }
+@media (max-width: 768px) {
+  .about-badge span {
+    font-size: 20px;
+  }
 
-    .badge-design{
+  .badge-design {
     width: 40px;
     height: 30px;
-    }
+  }
 
-    .about-preview h2{
-        font-size: 32px;
-    }
+  .about-preview h2 {
+    font-size: 32px;
+  }
 
-    .about-preview p{
-        font-size:16px;
-    }
+  .about-preview p {
+    font-size: 16px;
+  }
 }

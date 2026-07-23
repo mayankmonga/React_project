@@ -1,50 +1,49 @@
-.contact-input{
-    width:100%;
-    border: none;
-    border-bottom: 1px solid #8C8C8C;
-    padding: 12px 0;
-    margin-bottom: 20px;
-    outline: none;
-    background: transparent;
+.contact-input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #8c8c8c;
+  padding: 12px 0;
+  margin-bottom: 20px;
+  outline: none;
+  background: transparent;
 }
 
-.contact-textarea{
-    width: 100%;
-    border: 1px solid #8C8C8C;
-    padding: 15px;
-    outline: none;
-    resize: none;
-    margin-top: 10px;
-    border-radius: 5px;
+.contact-textarea {
+  width: 100%;
+  border: 1px solid #8c8c8c;
+  padding: 15px;
+  outline: none;
+  resize: none;
+  margin-top: 10px;
+  border-radius: 5px;
 }
 
-.contact-btn{
-    margin-top: 30px;
-    padding: 12px 35px;
-    border: none;
-    background-color: #B9467B;
-    color: #fff;
-    border-radius: 5px;
-    font-family: "PoorRichard", serif;
-    font-size: 24px;
+.contact-btn {
+  margin-top: 30px;
+  padding: 12px 35px;
+  border: none;
+  background-color: #b9467b;
+  color: #fff;
+  border-radius: 5px;
+  font-family: "PoorRichard", serif;
+  font-size: 24px;
 }
 
-.conatct-section{
-    font-family: "Raleway", sans-serif;
+.conatct-section {
+  font-family: "Raleway", sans-serif;
 }
 
-.conatct-section h3{
-    font-size: 40px;
-    color: #423264;
-    font-family: "PoorRichard", serif;
-
+.conatct-section h3 {
+  font-size: 40px;
+  color: #423264;
+  font-family: "PoorRichard", serif;
 }
 
-p{
-    font-size: 18px;
-    line-height: 100%;
+p {
+  font-size: 18px;
+  line-height: 100%;
 }
 
-h6{
-    font-weight: bold;
+h6 {
+  font-weight: bold;
 }

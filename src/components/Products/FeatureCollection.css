@@ -1,0 +1,18 @@
+.heading{
+    font-size: 36px;
+    color: #423264;
+    font-weight: 500;
+    margin: 25px 0;
+}
+
+.description{
+    font-size: 14px;
+    line-height: 26px;
+    color: #423264;
+}
+
+
+.new-price{
+    font-size: 32px;
+    color: #423264;
+}

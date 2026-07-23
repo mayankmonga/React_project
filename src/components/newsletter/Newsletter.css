@@ -54,6 +54,8 @@
     border:none;
     padding:0 15px;
     border-radius:5px ;
+    background-color: white;
+    color: black;
 }
 
 .newsletter-form button{

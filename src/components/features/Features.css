@@ -19,7 +19,6 @@
     border-right: none;
 } */
 
-
 @font-face {
   font-family: "PoorRichard";
   src: url("../../assets/fonts/POORICH.TTF") format("opentype");
@@ -27,138 +26,122 @@
   font-style: normal;
 }
 
-.features{
-    width:100%;
-    padding:45px 80px;
-    background:#423264;
-    color:white;
-    
+.features {
+  width: 100%;
+  padding: 45px 80px;
+  background: #423264;
+  color: white;
 }
 
-.features-container{
-    width:90%;
-    margin:auto;
+.features-container {
+  width: 90%;
+  margin: auto;
 
-    display:flex;
-    justify-content:space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
-.feature-card{
+.feature-card {
+  flex: 1;
 
-    flex:1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    display:flex;
-    align-items:center;
-    justify-content: center;
+  gap: 12px;
 
-    gap:12px;
+  padding: 0px 15px;
 
-    padding:0px 15px;
-
-    border-right:1px solid #D4D4D4
+  border-right: 1px solid #d4d4d4;
 }
 
-.feature-card:last-child{
-
-    border-right:none;
-
+.feature-card:last-child {
+  border-right: none;
 }
 
-.feature-icon{
+.feature-icon {
+  font-size: 35px;
 
-    font-size:35px;
-
-    color:#8b2e6d;
-
+  color: #8b2e6d;
 }
 
-.feature-text h3{
+.feature-text h3 {
+  font-size: 18px;
 
-    font-size:18px;
-
-    margin-bottom:8px;
-    font-family:"PoorRichard", serif;
-    font-size: 25px;
-    font-weight: 400;
-
+  margin-bottom: 8px;
+  font-family: "PoorRichard", serif;
+  font-size: 25px;
+  font-weight: 400;
 }
 
-.feature-text p{
-
-    font-size:18px;
-    color:#999999;
-    font-weight: 400;
-    font-family: "Raleway", sans-serif;
-
+.feature-text p {
+  font-size: 18px;
+  color: #999999;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
 }
 
-@media (max-width:1024px){
-    .feature-icon img{
-        width:32px;
-    }
+@media (max-width: 1024px) {
+  .feature-icon img {
+    width: 32px;
+  }
 
-    .feature-text h3{
-        font-size:16px;
-        font-weight: 300;
-    }
+  .feature-text h3 {
+    font-size: 16px;
+    font-weight: 300;
+  }
 
-    .feature-text p{
-        font-size: 14px;
-    }
+  .feature-text p {
+    font-size: 14px;
+  }
 }
 
-@media (max-width:768px){
-    .features{
-        padding: 35px 60px;
-    }
-    .features-container{
-        width: 100%;
-    }
+@media (max-width: 768px) {
+  .features {
+    padding: 35px 60px;
+  }
+  .features-container {
+    width: 100%;
+  }
 
-     .feature-icon img{
-        width:32px;
-    }
+  .feature-icon img {
+    width: 32px;
+  }
 
-    .feature-text h3{
-        font-size:14px;
-        font-weight: 300;
-    }
+  .feature-text h3 {
+    font-size: 14px;
+    font-weight: 300;
+  }
 
-    .feature-text p{
-        font-size: 12px;
-    }
+  .feature-text p {
+    font-size: 12px;
+  }
 }
 
-@media (max-width:425px){
-    .features-container{
-        flex-wrap: wrap;
-        gap:10px
+@media (max-width: 425px) {
+  .features-container {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
 
-    }
-
-    .feature-card:nth-child(2) {
-
-    border-right:none;
-
-}
+  .feature-card:nth-child(2) {
+    border-right: none;
+  }
 }
 
-@media (max-width:375px){
-    .features-container{
-        display: block;
+@media (max-width: 375px) {
+  .features-container {
+    display: block;
+  }
 
-    }
+  .feature-card {
+    border-right: none;
+    border-top: 1px solid #d4d4d4;
+    margin-top: 5px;
+    padding: 5px;
+  }
 
-    .feature-card{
-        border-right: none;
-        border-top:1px solid #D4D4D4;
-        margin-top: 5px;
-        padding: 5px;
-    }
-
-    .feature-card:first-child{
-
-    border-top:none;
-
-}
+  .feature-card:first-child {
+    border-top: none;
+  }
 }

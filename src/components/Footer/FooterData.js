@@ -1,66 +1,66 @@
 export const Quicklinks = [
-    {
-        title:"Home",
-        path:"/",
-    },
-    {
-      title:"Shop",
-      path: "/shop",
-    },
-    {
-        title:"About Us",
-        path:"/about",
-    },
-    {
-        title:"Contact Us",
-        path:"/contact",
-    },  
-    {
-        title:"Blog",
-        path:"/blog",
-    },
+  {
+    title: "Home",
+    path: "/",
+  },
+  {
+    title: "Shop",
+    path: "/shop",
+  },
+  {
+    title: "About Us",
+    path: "/about",
+  },
+  {
+    title: "Contact Us",
+    path: "/contact",
+  },
+  // {
+  //   title: "Blog",
+  //   path: "/blog",
+  // },
 ];
 
 export const Categories = [
-    {
-        title:"Canvas Prints",
-        path:"/category",
-    },
-    {    
-        title:"Paper Prints",
-        path:"/category",
-    },
-    {
-        title: "Copper Décor",
-        path:"/category",
-    },
+  {
+    title: "Canvas Prints",
+    path: "/category",
+  },
+  {
+    title: "Paper Prints",
+    path: "/category",
+  },
+  {
+    title: "Copper Décor",
+    path: "/category",
+  },
 ];
 
 export const SupportLinks = [
-    {
-        title:"FAQs",
-        path:"/",
-    },
+  {
+    title: "FAQs",
+    path: "/",
+  },
 
-    {
-        title:"Shipping Policy",
-        path:"/",
-    },
+  {
+    title: "Shipping Policy",
+    path: "/",
+  },
 
-    {
-        title:"Return Policy",
-        path:"/",
-    },
+  {
+    title: "Return Policy",
+    path: "/",
+  },
 
-    {
-        title:"Privacy Policy",
-        path:"/",
-    },
+  {
+    title: "Privacy Policy",
+    path: "/",
+  },
 
-    {
-        title:"Terms & Conditions",
-        path:"/",
-    },
+  {
+    title: "Terms & Conditions",
+    path: "/",
+  },
 ];
 
 export const Footerdesc = [

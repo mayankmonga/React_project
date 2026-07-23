@@ -4,8 +4,8 @@ import { WhyChoose } from "./WhyCustomerData";
 function WhyCustomerChoose (){
     return(
         <section className="choose-section my-5">
-            <div className="container">
-                <div className="row mx-auto">
+            <div className="container-fluid">
+                <div className="row w-[80%] mx-auto">
                     <h2 className="text-center my-5">
                         Why Customers Love Us
                     </h2>

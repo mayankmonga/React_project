@@ -1,4 +1,6 @@
+import "./Testimonialcard.css";
 import "./Testimonial.css";
+import { TestimonialData } from "./Testimonialdata";
 import { FaStar, FaRegStar } from "react-icons/fa";
 
 function TestimonialCard({ item, index }) {

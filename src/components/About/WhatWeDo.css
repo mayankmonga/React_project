@@ -1,38 +1,57 @@
-.what-section{
-    margin-top: 520px;
-    padding: 60px 0;
+.what-section {
+  margin-top: 520px;
+  padding: 60px 0;
 }
 
 .What-text {
-    padding: 0 30px ;
+  padding: 0 30px;
 }
 
-.What-text ul{
-    list-style: unset;
-    font-family: "Raleway", sans-serif;
-    
-    
+.What-text ul {
+  list-style: unset;
+  font-family: "Raleway", sans-serif;
 }
 
-.What-text h3{
-    color: #423264;
-    font-size: 40px;
-    font-family: "PoorRichard", serif;
-    margin: 30px 0;
+.What-text h3 {
+  color: #423264;
+  font-size: 40px;
+  font-family: "PoorRichard", serif;
+  margin: 30px 0;
 }
 
-.What-text p{
-    color: #5D5D5D;
-    font-size: 18px;
-    line-height: 100%;
-    font-family: "Raleway", sans-serif;
-    margin: 20px 0;
+.What-text p {
+  color: #5d5d5d;
+  font-size: 18px;
+  line-height: 100%;
+  font-family: "Raleway", sans-serif;
+  margin: 20px 0;
 }
 
-.What-text h4{
-    font-size: 18px;
-    font-weight:  700;
-    color: #5D5D5D;
-    font-family: "Raleway", sans-serif;
-    margin: 20px 0;
+.What-text h4 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #5d5d5d;
+  font-family: "Raleway", sans-serif;
+  margin: 20px 0;
+}
+.about-badge {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.about-badge span {
+  background: #b9467b;
+
+  color: #fff;
+
+  padding: 3px 18px;
+
+  border-radius: 4px;
+
+  font-size: 25px;
+
+  font-weight: 500;
+  font-family: "Raleway", sans-serif;
 }

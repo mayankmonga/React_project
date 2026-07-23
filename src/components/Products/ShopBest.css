@@ -1,0 +1,23 @@
+.Bestseller-content h2{
+    color: #423264;
+    font-size: 36px;
+    padding: 10px;
+}
+
+.Bestseller-content img{
+    height: 384px;
+    width: 362px;
+    object-fit: cover;
+    border-radius: 32px;
+}
+
+.Bestseller-content h4{
+    color: #423264;
+    font-size: 18px;
+    padding: 18px;
+}
+
+.Bestseller-content p{
+    color: #423264;
+    font-size: 30px;
+}

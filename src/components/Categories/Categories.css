@@ -5,50 +5,46 @@
   font-style: normal;
 }
 
-
-.categories-preview{
-    width: 80%;
-    margin: auto;
-    padding: 50px 0;
+.categories-preview {
+  width: 80%;
+  margin: auto;
+  padding: 50px 0;
 }
 
-.categories-cont{
-    width: 100%;
-    display: flex;
-    gap: 30px;
+.categories-cont {
+  width: 100%;
+  display: flex;
+  gap: 30px;
 }
 
-.categories-preview h2{
+.categories-preview h2 {
+  font-size: 40px;
 
-    font-size:40px;
+  color: #432364;
 
-    color:#432364;
+  margin-bottom: 30px;
 
-    margin-bottom:30px;
+  font-weight: 400;
 
-    font-weight:400;
-
-    font-family: "PoorRichard", serif;
+  font-family: "PoorRichard", serif;
 }
 
-.categories-preview p{
+.categories-preview p {
+  font-size: 16px;
 
-    font-size:16px;
+  color: #666;
 
-    color:#666;
+  line-height: 1.8;
 
-    line-height:1.8;
-
-    margin-bottom:18px;
+  margin-bottom: 18px;
 }
 
-@media (max-width:768px){
-    .categories-cont{
-        display: block;
-    }
+@media (max-width: 768px) {
+  .categories-cont {
+    display: block;
+  }
 
-    .categories-preview h2{
-        font-size: 32px;
-    }
-
+  .categories-preview h2 {
+    font-size: 32px;
+  }
 }

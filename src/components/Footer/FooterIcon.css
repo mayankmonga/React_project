@@ -1,15 +1,14 @@
-.icon{
-    background-color: white;
-    color: #423264;
-    margin: 10px 8px;
-    padding: 6px;
-    border-radius: 50%;
-    font-size: 28px;
-    text-align: center;
-
+.icon {
+  background-color: white;
+  color: #423264;
+  margin: 10px 8px;
+  padding: 6px;
+  border-radius: 50%;
+  font-size: 28px;
+  text-align: center;
 }
 
-.social-icons{
-    margin-top: 35px;
-    display: flex;
+.social-icons {
+  margin-top: 35px;
+  display: flex;
 }

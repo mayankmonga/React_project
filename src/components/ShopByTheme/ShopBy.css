@@ -1,0 +1,26 @@
+.shopby-content h2{
+    color: #423264;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.shopby-content img{
+    width: 897px;
+    border-radius: 32px;
+}
+
+.right-content h3{
+    font-size: 36px;
+    color: #423264;
+    font-weight: 400;
+    line-height: 48px;
+    margin-bottom: 0;
+}
+
+.right-content P{
+    font-size: 14px;
+    color: #423264;
+    line-height: 22PX;
+    width: 90%;
+    margin: 30px 0;
+}

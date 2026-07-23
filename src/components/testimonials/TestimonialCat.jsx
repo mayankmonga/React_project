@@ -1,16 +1,20 @@
 import "./TestimonialCat.css";
+import "./Testimonial.css"
 import { TestimonialData } from "./Testimonialdata";
 import TestimonialCard from "./Testimonialcard";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+
 function TestimonialCat() {
   return (
     <section className="cat-testimonial">
-      <div className="conatiner-fluid">
         <div className="cat-content">
           <h2 className="text-center">What Our Customers Say</h2>
-          <div className="row">
+
             <Swiper
               modules={[Autoplay]}
               // slidesPerView={3}
@@ -44,9 +48,8 @@ function TestimonialCat() {
                 </SwiperSlide>
               ))}
             </Swiper>
-          </div>
+
         </div>
-      </div>
     </section>
   );
 }
