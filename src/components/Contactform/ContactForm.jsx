@@ -6,13 +6,13 @@ function ContactForm() {
     <section className="conatct-section py-5">
       <div className="container-fluid  py-5">
         <div className="row mx-auto w-[80%]">
-          <div className="col-lg-6">
+          <div className="col-12 col-lg-6">
             <div className="about-badge">
               <span>Contact Us</span>
               <img src={Badgeicon} alt="Badge Icon" />
             </div>
             <h3>Get in Touch</h3>
-            <p className="w-[90%]">
+            <p className="lg:w-[90%]">
               Have a question, custom requirement, or bulk order inquiry? We'd
               love to hear from you. Our team is ready to assist with product
               information, design consultations, and personalized
@@ -33,7 +33,7 @@ function ContactForm() {
               <p className="mb-4">India</p>
             </div>
           </div>
-          <div className="col-lg-6">
+          <div className="col-12 col-lg-6">
             <h3>Send Us a Message</h3>
 
             <p>

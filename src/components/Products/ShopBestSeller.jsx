@@ -7,9 +7,9 @@ function ShopBestSeller() {
     <section className="Bestseller-shop py-5">
       <div className="Bestseller-content w-[80%] mx-auto py-5">
         <h2>Best Seller</h2>
-        <div className="flex flex-cols-4 gap-5">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           {ShopBestData.map((item) => (
-            <div key={item.id}>
+            <div key={item.id} className="best-card">
               <img src={item.image} alt="" />
               <h4>{item.title}</h4>
               <div className="flex justify-between  items-center px-4">
@@ -24,7 +24,7 @@ function ShopBestSeller() {
             </div>
           ))}
         </div>
-        <div className="mt-6 flex justify-end">
+        <div className="mt-8 flex justify-center lg:justify-end ">
           <button className="group flex  items-center gap-[20px] !px-[30px] !py-[13px] !rounded-[32px]  bg-none text-[#2F2A6B] !text-[26px] font-medium transition-all duration-300 hover:bg-[#B9467B] hover:text-white">
             View All
             <FiArrowRight className="transition-transform duration-300 group-hover:translate-x-1" />

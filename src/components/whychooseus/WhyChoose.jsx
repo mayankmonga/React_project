@@ -12,7 +12,7 @@ function WhyChoose() {
             <h2>Why Choose Vividkraft</h2>
             <span>Designed with Purpose. Crafted with Care.</span>
         </div>
-      <div className="why-content flex ">        
+      <div className="why-content ">        
         
         <div className="Why-text text-center">
           <img src={Why1} alt="" />
@@ -23,7 +23,7 @@ function WhyChoose() {
           [clip-path:polygon(0_0,_100%_19%,_100%_93%,_0_75%)]"
         ></div>
         
-        <div className="Why-text text-center translate-y-8">
+        <div className="Why-text text-center xl:translate-y-8">
           <p>Custom-Made Designs</p>
           <img src={Why2} className="" />
         </div>
@@ -41,7 +41,7 @@ function WhyChoose() {
           [clip-path:polygon(0_0,_100%_19%,_100%_93%,_0_75%)]"
         ></div>
         
-        <div className="Why-text text-center translate-y-8">
+        <div className="Why-text text-center xl:translate-y-8">
           <p>Secure Packaging & Delivery</p>
           <img src={Why4} className="" />
         </div>

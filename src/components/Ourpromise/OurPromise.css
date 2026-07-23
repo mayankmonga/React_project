@@ -1,35 +1,169 @@
-.Promise-right{
-    position: relative;
 
+
+.Promise-content{
+    min-height:650px;
 }
- .image1{
-    position: absolute;
-    right: 0;
-    top: 0;
+
+.Promise-right{
+    position:relative;
+    min-height:550px;
+}
+
+.image1{
+    position:absolute;
+    right:0;
+    top:0;
+    width:100% ;
+    /* max-width:546px; */
+    /* max-height: 447px; */
+    height: 100%;
+    border-radius:10px;
+    object-fit: cover;
 }
 
 .image2{
-    position: absolute;
+    position:absolute;
+    left:-25%;
+    bottom:-8%;
+    width:60%;
+    max-width:360px;
+    border-radius:10px;
+    z-index:2;
     
-    left: 0;
-    bottom: -115%;
-    z-index: 10;
-}
-
-.Promise-content{
-    height: 600px;
 }
 
 .Promise-left h3{
-    font-size: 40px;
-    font-family: "PoorRichard", serif;
+    font-size:40px;
+    font-family:"PoorRichard",serif;
     margin:15px 0;
 }
 
 .Promise-left p{
-    font-size: 18px;
-    color: #5D5D5D;
-    line-height: 100%;
-    font-family: "Raleway", sans-serif;
-    width: 90%;
+    font-size:18px;
+    color:#5D5D5D;
+    line-height:1.7;
+    width:90%;
+}
+
+@media(max-width:1200px){
+
+.Promise-content{
+    min-height:560px;
+}
+
+.Promise-right{
+    min-height:450px;
+}
+
+.Promise-left h3{
+    font-size:34px;
+}
+
+.Promise-left p{
+    font-size:16px;
+}
+
+}
+
+@media(max-width:1024px){
+    .image1{
+    max-width:546px;
+    max-height: 450px;
+}
+.image2{
+
+    left:0;
+    bottom:-15%;
+   
+    
+}
+}
+
+@media(max-width:992px){
+
+.Promise-content{
+    min-height:auto;
+}
+
+.Promise-left{
+    text-align:center;
+}
+
+.Promise-left p{
+    width:100%;
+}
+
+.Promise-right{
+    min-height:500px;
+    margin-top:40px;
+}
+
+.image1{
+    width:60%;
+}
+
+.image2{
+    width:60%;
+}
+
+}
+
+@media(max-width:768px){
+
+.Promise-right{
+
+display:flex;
+flex-direction:column;
+gap:20px;
+align-items:center;
+
+min-height:auto;
+
+}
+
+.image1,
+.image2{
+
+position:static;
+
+width:100%;
+max-width:350px;
+
+}
+
+.Promise-left h3{
+
+font-size:28px;
+
+}
+
+.Promise-left p{
+
+font-size:15px;
+
+}
+
+}
+
+@media(max-width:480px){
+
+.Promise-left h3{
+
+font-size:24px;
+
+}
+
+.Promise-left p{
+
+font-size:14px;
+
+}
+
+.image1,
+.image2{
+
+max-width:100%;
+
+}
+
 }

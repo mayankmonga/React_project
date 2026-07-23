@@ -1,28 +1,129 @@
+
 .contact-hero {
   background: url("../../assets/images/Contacthero.png");
   background-repeat: no-repeat;
-  background-size: auto;
-  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  min-height: 80vh;
   display: flex;
+  align-items: center;
+  padding: 80px 0;
+}
+
+.contact-hero-text {
   align-items: center;
 }
 
 .cat-hero-box {
-  background-color: #ffffff7a;
-  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(6px);
+  border-radius: 12px;
 }
 
 .cat-hero-box h2 {
-  font-size: 50px;
+  font-size: 45px;
   font-family: "PoorRichard", serif;
   color: #423264;
+  line-height: 1.1;
 }
 
 .cat-hero-box p {
   color: #383838;
-  font-size: 20px;
-  line-height: 23px;
+  font-size: 18px;
+  line-height: 1.5;
   font-family: "Raleway", sans-serif;
-  font-weight: 400;
   margin-top: 15px;
+}
+
+@media (max-width:1200px){
+
+.cat-hero-box h2{
+    font-size:42px;
+}
+
+.cat-hero-box p{
+    font-size:18px;
+}
+
+}
+
+@media (max-width:992px){
+
+.contact-hero{
+
+    min-height:70vh;
+    padding:60px 0;
+
+}
+
+.cat-hero-box{
+
+    text-align:center;
+
+}
+
+.cat-hero-box h2{
+
+    font-size:36px;
+
+}
+
+.cat-hero-box p{
+
+    font-size:17px;
+
+}
+
+}
+
+@media (max-width:768px){
+
+.contact-hero{
+
+    min-height:60vh;
+    padding:40px 15px;
+
+}
+
+.cat-hero-box{
+
+    padding:25px !important;
+
+}
+
+.cat-hero-box h2{
+
+    font-size:28px;
+
+}
+
+.cat-hero-box p{
+
+    font-size:16px;
+    line-height:1.6;
+
+}
+
+}
+
+@media (max-width:480px){
+
+.contact-hero{
+
+    min-height:55vh;
+
+}
+
+.cat-hero-box h2{
+
+    font-size:24px;
+
+}
+
+.cat-hero-box p{
+
+    font-size:15px;
+
+}
+
 }

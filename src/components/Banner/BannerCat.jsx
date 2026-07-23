@@ -9,10 +9,10 @@ function BannerCat() {
           <div className="row align-items-center">
             {/* Left Side */}
 
-            <div className="col-lg-5 banner-text">
+            <div className="col-12 col-lg-6 banner-text">
               <h2>
                 Turn Your Ideas Into
-                <br />
+                
                 Beautiful Prints
               </h2>
 
@@ -26,7 +26,7 @@ function BannerCat() {
 
             {/* Right Side */}
 
-            <div className="col-lg-7 p-0">
+            <div className="col-12  col-lg-6 p-0">
               <div className="banner-image">
                 <img src={BannerImage} alt="Banner" className="img-fluid" />
               </div>

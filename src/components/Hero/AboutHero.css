@@ -1,6 +1,6 @@
 .about-hero {
   background: url("../../assets/images/AboutHero.jpg");
-  height: 691px;
+  min-height:680px;
   position: relative;
   background-size: cover;
   background-repeat: no-repeat;
@@ -10,9 +10,10 @@
   transform: rotateY(180deg);
   background-color: rgba(255, 255, 255, 0.623);
   width: 35%;
+  max-width:650px;
   padding: 20px 60px;
   position: absolute;
-  right: 8%;
+  right: 10%;
   top: 40%;
   border-radius: 10px;
 }
@@ -34,13 +35,14 @@
   background-repeat: no-repeat;
   background-position: right;
   width: 85%;
+  max-width:1500px;
   padding: 100px 80px;
   border-radius: 12px;
   position: absolute;
-  left: 7%;
+  left: 50%;
   /* bottom: -500px; */
   top: 80%;
-  transform: rotateY(180deg);
+  transform:translateX(-50%) rotateY(180deg);
 }
 
 .text-box h3 {
@@ -55,4 +57,144 @@
   color: #5d5d5d;
   font-family: "Raleway", sans-serif;
   line-height: 100%;
+}
+
+
+.image-box img{
+    width:100%;
+    height:auto;
+    display:block;
+    border-radius:10px;
+}
+
+/* ---------------- Laptop ---------------- */
+
+@media(max-width:1200px){
+  .hero-box2{
+    background-position: bottom;
+  }
+
+.hero-box1{
+    width:45%;
+    padding:25px 30px;
+}
+
+.hero-box1 h2{
+    font-size:34px;
+}
+
+.hero-box1 p{
+    font-size:18px;
+}
+
+.hero-box2{
+    padding:60px;
+}
+
+.text-box h3{
+    font-size:34px;
+}
+
+}
+
+@media(max-width:1024px){
+
+}
+
+
+/* ---------------- Tablet ---------------- */
+
+@media(max-width:992px){
+
+.about-hero{
+    min-height:620px;
+}
+
+.hero-box1{
+    width:80%;
+    right:50%;
+    transform:translateX(50%) rotateY(180deg);
+    top:40%;
+    text-align:center;
+}
+
+.hero-box2{
+    width:92%;
+    padding:40px 30px;
+    grid-template-columns:1fr !important;
+    top:75%;
+}
+
+.text-box{
+    margin-top:30px;
+}
+
+.text-box h3{
+    font-size:30px;
+}
+
+}
+
+
+/* ---------------- Mobile ---------------- */
+
+@media(max-width:768px){
+
+.about-hero{
+    min-height:540px;
+}
+
+.hero-box1{
+    width:92%;
+    padding:25px 20px;
+    top:30%;
+}
+
+.hero-box1 h2{
+    font-size:28px;
+}
+
+.hero-box1 p{
+    font-size:16px;
+    line-height:1.6;
+}
+
+.hero-box2{
+    width:95%;
+    padding:25px 20px;
+    top:70%;
+}
+
+.text-box h3{
+    font-size:26px;
+}
+
+.text-box p{
+    font-size:15px;
+    line-height:1.6;
+}
+
+}
+
+
+/* ---------------- Small Mobile ---------------- */
+
+@media(max-width:480px){
+
+.hero-box1 h2{
+    font-size:22px;
+}
+
+.hero-box1 p{
+    font-size:12px;
+}
+
+.text-box h3{
+    font-size:22px;
+}
+
+.text-box p{
+    font-size:14px;
+}
+
 }

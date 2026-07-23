@@ -11,6 +11,7 @@
 
   position: relative;
   width: 80%;
+   max-width: 1500px;
   margin: auto;
 }
 
@@ -76,10 +77,9 @@
 
 .banner-image img {
   width: 100%;
-  height: 515px;
-
-  max-width: 990px;
-
+  height: 100%;
+  min-height: 320px;
+  max-height: 515px;
   display: block;
 }
 
@@ -113,4 +113,132 @@
   position: relative;
 
   z-index: 0;
+}
+
+
+@media (max-width:1440px){
+  .banner-text h2 {
+  font-size: 46px;
+  }
+  .banner-text p{
+    font-size:14px;
+}
+.banner-text {
+  padding: 70px 0 20px 70px;
+}
+.banner-btn {
+  padding: 10px 22px;
+}
+}
+
+/* ---------------- Laptop ---------------- */
+
+@media (max-width:1200px){
+
+.banner-text{
+    padding:50px;
+}
+
+.banner-text h2{
+    font-size:36px;
+}
+
+.banner-text p{
+    font-size:10px;
+}
+
+}
+
+
+/* ---------------- Tablet ---------------- */
+
+@media (max-width:992px){
+
+.banner-card{
+    width:95%;
+}
+
+.banner-text{
+    padding:40px 30px;
+    text-align:center;
+}
+
+.banner-text h2{
+    font-size:40px;
+}
+
+.banner-text p{
+    width:100%;
+    margin-inline:auto;
+    font-size:20px;
+}
+
+.banner-image{
+    justify-content:center;
+}
+
+.banner-image img{
+    max-height:400px;
+}
+
+.banner-image::before{
+    display:none;
+}
+
+}
+
+
+/* ---------------- Mobile ---------------- */
+
+@media (max-width:768px){
+
+.banner-section{
+    padding:50px 0;
+}
+
+.banner-card{
+    width:95%;
+}
+
+.banner-text{
+    padding:30px 20px;
+}
+
+.banner-text h2{
+    font-size:30px;
+}
+
+.banner-text p{
+    font-size:16px;
+}
+
+.banner-btn{
+    width:100%;
+    padding:14px;
+}
+
+.banner-image img{
+    min-height:250px;
+    max-height:320px;
+}
+
+}
+
+
+/* ---------------- Small Mobile ---------------- */
+
+@media (max-width:480px){
+
+.banner-text h2{
+    font-size:24px;
+}
+
+.banner-text p{
+    font-size:15px;
+}
+
+.banner-image img{
+    min-height:220px;
+}
+
 }

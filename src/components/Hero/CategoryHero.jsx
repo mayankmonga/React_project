@@ -10,14 +10,14 @@ function CategoryHero() {
         <h1>Bring Art & Elegance</h1>
         <h1>Into Your Space</h1>
         <div className="row">
-          <p className=" col-xl-4 col-lg-5  col-md-6">
+          <p className=" col-12 col-md-8 col-lg-6 col-xl-4">
             Discover premium canvas artwork, custom printing solutions, and
             handcrafted copper products designed to elevate modern homes and
             creative spaces.
           </p>
         </div>
 
-        <div className="flex ">
+        <div className="hero-buttons ">
           <button className="first-btn">
           Shop Collection <FaArrowRight />
         </button>

@@ -2,8 +2,8 @@ import "./CreatedByPassion.css";
 
 function CreatedByPassion() {
   return (
-    <section className="passion-section p-5">
-      <div className="container ">
+    <section className="passion-section py-5">
+      <div className="passsion-content w-[80%] mx-auto">
         <h2>Crafted With Passion</h2>
         <p>
           At [Your Brand Name], we believe every product should tell a story.

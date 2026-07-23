@@ -15,7 +15,7 @@ function AboutHero() {
             yours.
           </p>
         </div>
-        <div className="hero-box2  grid grid-cols-2 gap-4 justify-center items-center">
+        <div className="hero-box2  grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
           <div className="image-box">
             <img src={HeroImage} alt="Product Image" className="hello-img" />
           </div>

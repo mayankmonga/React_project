@@ -8,7 +8,7 @@ function BestCat (){
                 <h2 className="text-center my-5">Best Sellers</h2>
                 <div className="row bestcatcards">
                     {BestCatData.map((Best) =>(
-                        <div className="col-md-3" key={Best.id}>
+                        <div className="col-12 col-lg-3 col-md-4 col-sm-6 best-card-data" key={Best.id}>
                             <img src={Best.image} alt="Product Image" />
                             <h3 className="my-3">{Best.title}</h3>
                             <p>{Best.desc}</p>

@@ -9,7 +9,7 @@ function Collection() {
           <h2 className="text-center my-5">Featured Collections</h2>
 
           {Collections.map((Collection) => (
-            <div className="col-lg-4 mx-auto " key={Collection.id}>
+            <div className=" col-12 col-lg-4 col-md-6  mx-auto " key={Collection.id}>
               <img src={Collection.image} alt="Product Image" />
               <h3 className="mt-3">{Collection.title}</h3>
               <p className="mt-4">{Collection.desc}</p>

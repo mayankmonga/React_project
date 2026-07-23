@@ -23,21 +23,21 @@ function ShopHero() {
         {ShopHeroData.map((item) => (
           <SwiperSlide key={item.id} className="!w-full">
             <div
-              className="w-[90%] h-[75vh] mx-auto rounded-3xl  overflow-hidden"
+              className="shop-hero-container w-[92%] lg:w-[90%] mx-auto rounded-3xl overflow-hidden"
               style={{
                 backgroundImage: `url(${item.image})`,
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "cover",
               }}
             >
-              <div className="w-1/2 shop-hero-text">
+              <div className="shop-hero-text">
                 <h1 className="text-5xl font-semibold leading-tight text-[#4A2B6D]">
                   {item.title}
                 </h1>
 
                 <p className="mt-6 text-gray-600">{item.desc}</p>
 
-                <div className="flex gap-5 mt-10">
+                <div className="hero-btns">
                   <button className="bg-[#B9467B] text-white px-5 py-2 hover:bg-transparent hover:border hover:!text-black transition-all duration-300">
                     Shop Collection
                   </button>

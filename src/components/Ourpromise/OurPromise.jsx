@@ -9,7 +9,7 @@ function OurPromise (){
         <section className="Promise-section py-5 ">
             <div className="Promise-content py-5 mx-auto w-[80%]">
                 
-                <div className="grid grid-cols-2">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 ">
                     <div className="Promise-left">
                         <div className="about-badge">
                             <span>Our Promise</span>

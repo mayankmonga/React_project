@@ -15,3 +15,13 @@
     color: #F3F3F3;
     margin-top: 25px;
 }
+
+@media (max-width:768px){
+    .passion-section h2{
+        font-size: 32px;
+    }
+
+    .passion-section p{
+    font-size: 14px;
+    }
+}

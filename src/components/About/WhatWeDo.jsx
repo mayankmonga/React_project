@@ -5,7 +5,7 @@ import Badgeicon from "../../assets/images/badgeicon.png";
 function WhatWeDo() {
   return (
     <section className="what-section">
-      <div className="what-content grid grid-cols-2 w-[80%] mx-auto gap-4">
+      <div className="what-content grid grid-cols-1 lg:grid-cols-2 w-[80%] mx-auto gap-4">
         <div className="What-text">
           <div className="about-badge">
             <span>What We Do</span>

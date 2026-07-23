@@ -15,3 +15,23 @@
 .shopcategory img{
   margin: auto;
 }
+
+@media (max-width:768px){
+    .shopcategory h2 {
+    font-size: 38px;
+  }
+  
+}
+
+@media (max-width:500px){
+    .shopcategory h2 {
+    font-size: 32px;
+  }
+  .shopcategory img{
+    height: 60px;
+  }
+  .shopbycard h3 {
+  font-size: 20px;
+}
+  
+}

@@ -14,7 +14,6 @@ function ShopByCategory() {
               <p>{category.desc}</p>
             </div>
           ))}
-          ;
         </div>
       </div>
     </section>

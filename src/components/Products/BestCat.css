@@ -27,3 +27,70 @@
     color: #533F7D;
     font-size: 24px;
 }
+
+@media (max-width:1440px){
+    .bestcatcards h3{
+    font-size: 24px;
+    }
+    .bestcatcards p{
+    font-size: 14px;
+    }
+    .bestcatcards span{
+    font-size: 20px;
+    }
+}
+@media (max-width:1024px){
+    .bestcatcards h3{
+    font-size: 20px;
+    }
+    .bestcatcards p{
+    font-size: 12px;
+    }
+    .bestcatcards span{
+    font-size: 18px;
+    }
+    .bestcatcards img{
+    height: 400px;
+    }
+}
+
+@media (max-width:768px){
+    .bestcatcards h3{
+    font-size: 32px;
+    }
+    .bestcatcards p{
+    font-size: 20px;
+    }
+    .bestcatcards span{
+    font-size: 24px;
+
+    }
+    .best-card-data{
+        margin-bottom: 30px;
+    }
+    .bestcatcards img{
+    height: 380px;
+    }
+
+
+}
+
+@media (max-width:580px){
+    
+    .bestcatcards h3{
+    font-size: 28px;
+    }
+    .bestcatcards p{
+    font-size: 16px;
+    }
+    .bestcatcards span{
+    font-size: 20px;
+
+    }
+}
+
+@media (max-width:399px){
+    .bestcatcards img{
+    height: 383px;
+    }
+}

@@ -1,57 +1,171 @@
-.what-section {
-  margin-top: 520px;
-  padding: 60px 0;
+
+
+.what-section{
+    margin-top:520px;
+    padding:60px 0;
 }
 
-.What-text {
-  padding: 0 30px;
+.What-text{
+    padding:0 30px;
 }
 
-.What-text ul {
-  list-style: unset;
-  font-family: "Raleway", sans-serif;
+.What-text ul{
+    list-style:disc;
+    padding-left:20px;
+    font-family:"Raleway",sans-serif;
 }
 
-.What-text h3 {
-  color: #423264;
-  font-size: 40px;
-  font-family: "PoorRichard", serif;
-  margin: 30px 0;
+.What-text li{
+    margin-bottom:10px;
+    color:#5d5d5d;
+    font-size:18px;
 }
 
-.What-text p {
-  color: #5d5d5d;
-  font-size: 18px;
-  line-height: 100%;
-  font-family: "Raleway", sans-serif;
-  margin: 20px 0;
+.What-text h3{
+    color:#423264;
+    font-size:40px;
+    font-family:"PoorRichard",serif;
+    margin:30px 0;
 }
 
-.What-text h4 {
-  font-size: 18px;
-  font-weight: 700;
-  color: #5d5d5d;
-  font-family: "Raleway", sans-serif;
-  margin: 20px 0;
-}
-.about-badge {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  margin-bottom: 20px;
+.What-text p{
+    color:#5d5d5d;
+    font-size:18px;
+    line-height:1.7;
+    margin:20px 0;
 }
 
-.about-badge span {
-  background: #b9467b;
+.What-text h4{
+    font-size:20px;
+    font-weight:700;
+    color:#5d5d5d;
+    margin:20px 0;
+}
 
-  color: #fff;
+.about-badge{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    margin-bottom:20px;
+}
 
-  padding: 3px 18px;
+.about-badge span{
+    background:#B9467B;
+    color:#fff;
+    padding:5px 18px;
+    border-radius:4px;
+    font-size:22px;
+}
 
-  border-radius: 4px;
+.What-img img{
+    width:100%;
+    height:auto;
+    display:block;
+    border-radius:12px;
+}
 
-  font-size: 25px;
+/* ---------------- Laptop ---------------- */
 
-  font-weight: 500;
-  font-family: "Raleway", sans-serif;
+@media(max-width:1200px){
+
+
+
+.What-text h3{
+    font-size:34px;
+}
+
+.What-text p,
+.What-text li{
+    font-size:16px;
+}
+
+}
+
+@media(max-width:1024px){
+
+.what-section{
+    margin-top:800px;
+}
+
+}
+
+/* ---------------- Tablet ---------------- */
+
+@media(max-width:992px){
+
+.what-section{
+    margin-top:790px;
+}
+
+.what-content{
+    gap:40px;
+}
+
+.What-text{
+    padding:0;
+}
+
+.What-text h3{
+    font-size:30px;
+}
+
+.about-badge{
+    justify-content:center;
+}
+
+.What-text{
+    text-align:center;
+}
+
+.What-text ul{
+    text-align:left;
+    display:inline-block;
+}
+
+}
+
+
+/* ---------------- Mobile ---------------- */
+
+@media(max-width:768px){
+
+.what-section{
+    margin-top:700px;
+    padding:40px 0;
+}
+
+.What-text h3{
+    font-size:26px;
+}
+
+.What-text p,
+.What-text li{
+    font-size:15px;
+    line-height:1.7;
+}
+
+.about-badge span{
+    font-size:18px;
+}
+
+}
+
+
+/* ---------------- Small Mobile ---------------- */
+
+@media(max-width:480px){
+
+.what-section{
+    margin-top:650px;
+}
+
+.What-text h3{
+    font-size:22px;
+}
+
+.What-text p,
+.What-text li{
+    font-size:14px;
+}
+
 }

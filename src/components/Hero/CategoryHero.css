@@ -47,28 +47,7 @@
   margin-right: 30px;
 }
 
-.first-btn,
-.second-btn:hover {
-  background-color: #b9467b;
-  border-radius: 5px;
-  padding: 13px 30px;
-  color: white;
-  border: none;
-  font-size: 20px;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
 
-.second-btn,
-.first-btn:hover {
-  background: none;
-  border-radius: 5px;
-  padding: 13px 30px;
-  border: 1px solid white;
-  color: white;
-  font-size: 20px;
-}
 
 .heroend {
   margin-top: 120px;
@@ -85,6 +64,45 @@
   border-right: none;
 }
 
+.hero-buttons {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 60px;
+}
+
+.first-btn {
+  background: #b9467b;
+  color: #fff;
+  border: none;
+  padding: 14px 30px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.first-btn:hover {
+  background: transparent;
+  border: 1px solid #fff;
+}
+
+.second-btn {
+  background: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 14px 30px;
+  border-radius: 6px;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.second-btn:hover {
+  background: #b9467b;
+}
+
 
 @media (max-width: 1440px) {
   .hero-content {
@@ -92,8 +110,123 @@
   }
 }
 
+@media (max-width:1200px){
+
+.hero-content{
+    width:90%;
+}
+
+.hero-content h1{
+    font-size:65px;
+}
+
+}
+
 @media (max-width: 1024px) {
   .hero-content h1 {
   font-size: 55px;
   }
+}
+
+@media (max-width:992px){
+
+.hero-content{
+    padding-top:120px;
+    text-align:center;
+}
+
+.hero-content h1{
+    font-size:52px;
+}
+
+.hero-content p{
+    margin:auto;
+    margin-bottom:30px;
+}
+
+.hero-buttons{
+    justify-content:center;
+}
+
+.heroend{
+    margin-top:70px;
+}
+
+.heroend div{
+    border-right:none;
+    border-bottom:1px solid rgba(255,255,255,.3);
+    padding:15px 0;
+}
+
+.heroend div:last-child{
+    border-bottom:none;
+}
+
+}
+
+@media (max-width:768px){
+
+  .hero-content button {
+  margin-top: 60px;
+  }
+
+  .second-btn {
+    margin-top: 20px !important;
+  }
+
+.cathero-section{
+    padding:60px 0;
+}
+
+.hero-content{
+    padding-top:70px;
+    width:92%;
+}
+
+.hero-content h1{
+    font-size:40px;
+    line-height:1.2;
+}
+
+.hero-content p{
+    font-size:15px;
+}
+
+.hero-buttons{
+    flex-direction:column;
+    align-items:center;
+}
+
+.hero-buttons button{
+    width:100%;
+    max-width:320px;
+    justify-content:center;
+}
+
+.heroend{
+    margin-top:50px;
+}
+
+}
+
+@media (max-width:480px){
+
+.hero-content h1{
+    font-size:30px;
+}
+
+.hero-content p{
+    font-size:14px;
+}
+
+.first-btn,
+.second-btn{
+    font-size:16px;
+    padding:12px 20px;
+}
+
+.heroend span{
+    font-size:14px;
+}
+
 }
