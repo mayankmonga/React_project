@@ -47,12 +47,12 @@
 
 @media (max-width: 480px) {
   .heading {
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .description {
-    font-size: 12px;
-    line-height: 20px;
+    font-size: 10px;
+    line-height: 16px;
   }
 
   .new-price {

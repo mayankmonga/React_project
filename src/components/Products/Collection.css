@@ -16,6 +16,9 @@
     color: #6D6D6D;
     font-size: 20px;
 }
+.collection-content h3{
+    font-size: 32px;
+}
 
 .collection-content span{
     color: #533F7D;
@@ -37,8 +40,20 @@
 
 @media (max-width:500px){
     .collection-content img{
-    height: 400px;
+    height: 350px;
     }
+
+    .collection-content p{
+        font-size: 16px;
+    }
+
+    .collection-content h3{
+    font-size: 24px;
+}
+
+.collection-content h2{
+    font-size: 30px;
+}
 
 }
 

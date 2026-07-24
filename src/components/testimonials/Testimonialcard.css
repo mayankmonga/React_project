@@ -143,3 +143,16 @@
         font-size: 18px;
     }
 }
+
+@media (max-width:425px){
+    .review-person{
+       width: 100%;
+       border-radius: 0;
+       gap: 20px;
+    }
+    .testiomonial-card p{
+        font-size: 14px;
+        line-height: 18px;
+        padding: 0 10px;
+    }
+}

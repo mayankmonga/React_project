@@ -12,3 +12,9 @@
   margin-top: 35px;
   display: flex;
 }
+
+@media(max-width:375px){
+  .social-icons {
+    flex-wrap: wrap;
+  }
+}

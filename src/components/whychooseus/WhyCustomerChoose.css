@@ -14,3 +14,35 @@
 .choose-section img{
     margin: auto;
 }
+
+@media (max-width:768px){
+    .choose-section h2{
+    font-size: 32px;
+}
+}
+
+@media (max-width:510px){
+    .choose-section h2{
+    font-size:28px;
+}
+    .choose-section img{
+        width: 60px;
+    }
+
+    .choose-section h3{
+    font-size: 20px;
+
+}
+
+    .choose-section p{
+    font-size: 10px;
+}
+
+
+}
+
+@media (max-width:425px){
+    .choose-section h2{
+    font-size: 24px;
+}
+}
